@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Login e Signup</h1>
+
+    <section>
+    <div id="signup">
+        <h2>Cadastro</h2>
+        <input type="email" id="signup-email" placeholder="Email">
+        <ion-icon name="mail-outline"></ion-icon>
+    </div>
+        
+        <input type="password" id="signup-password" placeholder="Senha">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+
+        <div>
+        <button onclick="signup()">Cadastrar</button>
+        </div>
+
+    </div>
+    <div id="login">
+        <h2>Login</h2>
+        <input type="email" id="login-email" placeholder="Email">
+        <ion-icon name="mail-outline"></ion-icon>
+    </div>
+
+        <input type="password" id="login-password" placeholder="Senha">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+
+        <div>
+        <button onclick="login()">Entrar</button>
+        </div>
+    </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

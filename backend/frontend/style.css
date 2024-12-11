@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+section {
+    text-align: center;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borda clara e translúcida */
+    border-radius: 20px; /* Cantos arredondados */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra */
+    max-width: min-content;
+    max-height: min-content;
+}
+
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: lightskyblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+section input {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borda clara e translúcida */
+    border-radius: 20px; /* Cantos arredondados */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    margin-bottom: 10px;
+}
+
+section ion-icon {
+    position: absolute;
+    color: black;
+    font-size: 1.2rem;
+    transition: all 0.5s ease-in-out;
+}
